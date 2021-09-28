@@ -36,3 +36,22 @@ echo "<hr>";
 
 echo(boolval(rand(0,1)))
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Tutorial Sample Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+      
+	</head>
+    
+	<body>
+
+
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="bootstrap//dist/js/bootstrap.min.js"></script>
+	</body>
+	
+</html>
