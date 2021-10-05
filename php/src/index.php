@@ -73,7 +73,6 @@ echo "<hr>";
     </nav>
 
 
-    <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap//dist/js/bootstrap.min.js"></script>
 </body>
 	
