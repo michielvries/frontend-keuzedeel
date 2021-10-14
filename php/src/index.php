@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Portfolio Michiel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,16 +24,15 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://www.google.com/">Google</a>
         </li>    
       </ul>
     </div>
   </div>
 </nav>
 
-
 <div class="container">
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
     <!-- Indicators/dots -->
     <div class="carousel-indicators">
@@ -43,19 +42,48 @@
     </div>
     
     <!-- The slideshow/carousel -->
-    
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="/img/document.jpeg" alt="Document" class="d-block" style="width:100%">
+    <div class="carousel-inner" style="background-color:lightgray;text-align:center;border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="/img/document.jpeg" alt="Document" class="d-block" style="width:100%">
+          </div>
+          <div class="col">
+            <h1>Dit is een plaatje van:</h1>
+            <p>Een papier met 2 pennen.</p>
+          </div>
         </div>
-        <div class="carousel-item">
-        <img src="/img/files.jpeg" alt="Files" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="/img/files.jpeg" alt="Files" class="d-block" style="width:100%">
+          </div>
+          <div class="col">
+            <h1>Dit is een plaatje van:</h1>
+            <p>Een paar mappen boven op elkaar.</p>
+            <p>Een paar mappen boven op elkaar.</p>
+            <p>Een paar mappen boven op elkaar.</p>
+            <p>Een paar mappen boven op elkaar.</p>
+            <p>Een paar mappen boven op elkaar.</p>
+            <p>Een paar mappen boven op elkaar.</p>
+          </div>
         </div>
-        <div class="carousel-item">
-        <img src="/img/pen.jpeg" alt="Pen and paper" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="/img/pen.jpeg" alt="Pen and paper" class="d-block" style="width:100%">
+          </div>
+          <div class="col">
+            <h1>Dit is een plaatje van:</h1>
+            <p>Een pen boven op een kladblok of zo.</p>
+          </div>
         </div>
+      </div>
     </div>
-    
+                                                
+  
     <!-- Left and right controls/icons -->
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -63,9 +91,13 @@
     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
     </button>
-    </div>
-
+  </div>
 </div>
+
+
+
+
+
 
 <div class="container mt-3">
   <h3>Collapsible Navbar</h3>
