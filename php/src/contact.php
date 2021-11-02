@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
   <script src="https://kit.fontawesome.com/f20a28553a.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -35,7 +36,7 @@
 <div class="container">
   <h3>Get in touch</h3>
   <p>blablabla contact information</p>
-  <div class="row" style="background-color:lightgray; border-radius: 10px;">
+  <div class="row" style="background-color:lightgray; border-radius: 10px;padding:10px;">
     <div class="col-md-7">
       <div class="row">
         <div class="col-md-6">
@@ -49,7 +50,7 @@
       </div>
       <div class="form-group">
         <label for="comment"><i class="fas fa-envelope"></i> Message:</label>
-        <textarea class="form-control" rows="5" id="comment"></textarea>
+        <textarea class="form-control textarea" rows="10" id="comment"></textarea><br>
       </div>
     </div>
     <div class="col-md" style="background-color:black;color:white;border-radius:10px;">

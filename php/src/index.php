@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="margin-bottom:0px;">
   <div class="container">
     <a class="navbar-brand" href="/index.php">Logo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -42,14 +43,14 @@
     </div>
     
     <!-- The slideshow/carousel -->
-    <div class="carousel-inner" style="background-color:lightgray;text-align:center;border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;">
+    <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row">
           <div class="col-sm-4">
-            <img src="/img/document.jpeg" alt="Document" class="d-block" style="width:100%">
+            <img src="/img/document.jpeg" alt="Document" class="d-block" style=" width:100%">
           </div>
           <div class="col">
-            <h1>Dit is een plaatje van:</h1>
+            <h1 style="overflow: hidden; white-space:nowrap;display:block;text-overflow: ellipsis;max-width:50%;">Dit is een plaatjeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeee eeeeeeeeee van:</h1>
             <p>Een papier met 2 pennen.</p>
           </div>
         </div>
