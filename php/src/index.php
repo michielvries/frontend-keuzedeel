@@ -22,7 +22,7 @@
           <a class="nav-link active" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="/upload.php">Upload</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contact.php">Contact</a>
@@ -46,21 +46,21 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <img src="/img/document.jpeg" alt="Document" class="d-block" style=" width:100%">
           </div>
-          <div class="col">
-            <h1 style="overflow: hidden; white-space:nowrap;display:block;text-overflow: ellipsis;max-width:50%;">Dit is een plaatjeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeee eeeeeeeeee van:</h1>
+          <div class="col-md-8">
+            <h1 data-bs-toggle="tooltip" title="Dit is een plaatjeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeee eeeeeeeeee van:" style="overflow: hidden; white-space:nowrap;display:block;text-overflow: ellipsis;">Dit is een plaatjeeeeeeeeeeeeeee eeeeeeeeeeeeeeee eeeeeeeeeee eeeeeeeeee van:</h1>
             <p>Een papier met 2 pennen.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <img src="/img/files.jpeg" alt="Files" class="d-block" style="width:100%">
           </div>
-          <div class="col">
+          <div class="col" style="max-height: 0px;">
             <h1>Dit is een plaatje van:</h1>
             <p>Een paar mappen boven op elkaar.</p>
             <p>Een paar mappen boven op elkaar.</p>
@@ -97,14 +97,17 @@
 
 
 
-
-
-
 <div class="container mt-3">
-  <h3>Collapsible Navbar</h3>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+  <h3>Lorem ipsum</h3>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt mattis gravida. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in risus cursus, eleifend ante ut, tempor nisi. Curabitur gravida, arcu at dapibus mattis, lectus mi sodales augue, sit amet semper lacus risus eget erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero ipsum, congue eget vestibulum et, pellentesque ac est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce hendrerit vulputate tincidunt. Maecenas congue eget ex ut semper.
+  </p>
+  <p>
+  Nulla tellus ex, tempor eget turpis non, vulputate dictum lorem. Etiam fermentum, orci eget facilisis convallis, augue arcu tincidunt lorem, a mattis dui turpis at eros. Phasellus ac arcu eget risus pulvinar congue. Nam maximus eu massa at sodales. Nulla finibus nec libero id placerat. Maecenas tempor consequat tortor. Praesent nulla magna, suscipit ut dignissim at, aliquam id massa. Etiam placerat eleifend neque, vitae pharetra massa aliquet sit amet.
+  </p>
+  <p>
+  Nulla eget massa justo. Etiam semper sed est in consequat. Sed nec elementum ligula, et luctus est. Nunc accumsan velit ut dolor fringilla, placerat pulvinar ante rhoncus. Quisque eros massa, viverra a libero eget, euismod faucibus ex. Suspendisse mollis vulputate justo, vitae scelerisque velit semper nec. In ac semper nunc.
+  </p>
 </div>
 
 </body>

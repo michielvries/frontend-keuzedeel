@@ -23,10 +23,10 @@
           <a class="nav-link" href="/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="/upload.php">Upload</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/contact.php">Contact</a>
+          <a class="nav-link active" href="#">Contact</a>
         </li>    
       </ul>
     </div>
@@ -56,6 +56,7 @@
     <div class="col-md" style="background-color:black;color:white;border-radius:10px;">
       <p>Beautiful content of this black area</p>
       <p>And some more pretty content.</p>
+      <p>C:\Users\Michiel>_</p>
     </div>
   </div>
 </div>
